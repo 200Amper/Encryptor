@@ -1,8 +1,8 @@
 print("hi")
-print("decryptor by romka v1.4")
+print("decryptor by 200Amper")
 pl=input("decrypt? Y/n ")
 while pl=="Y":
-        print("input algorithm (random symbols) ")
+        print("input algorithm (random letters) ")
         a=str(input("1 — "))
         b=str(input("2 — "))
         c=str(input("3 — "))
