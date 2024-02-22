@@ -1,7 +1,7 @@
-print("encryptor by romka v1.4")
+print("encryptor by 200Amper v1.4")
 pl=input("encrypt? Y/n ")
 while pl=="Y":
-        print("input algorithm (random symbols) ")
+        print("input algorithm (random letters) ")
         a=str(input("1 — "))
         b=str(input("2 — "))
         c=str(input("3 — "))
