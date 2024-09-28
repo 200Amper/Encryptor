@@ -1,4 +1,4 @@
-print("encryptor by 200Amper v1.4")
+print("encryptor")
 pl=input("encrypt? Y/n ")
 while pl=="Y":
         print("input algorithm (random letters) ")
