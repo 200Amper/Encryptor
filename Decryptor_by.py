@@ -1,8 +1,7 @@
-print("hi")
-print("decryptor by 200Amper")
-pl=input("decrypt? Y/n ")
-while pl=="Y":
-        print("input algorithm (random letters) ")
+pl=int(input("decrypt 1:"))
+while pl==1:
+        print("input(26 letters):")
+        
         a=str(input("1 — "))
         b=str(input("2 — "))
         c=str(input("3 — "))
@@ -29,12 +28,13 @@ while pl=="Y":
         x=str(input("24 — "))
         y=str(input("25 — "))
         z=str(input("26 — "))
+        
         if a=="a" or b=="b" or c=="c" or d=="d" or e=="e" or f=="f" or g=="g" or h=="h" or i=="i" or j=="j" or k=="k" or l=="l" or m=="m" or n=="n" or o=="o" or p=="p" or q=="q" or r=="r" or s=="s" or t=="t" or u=="u" or v=="v" or w=="w" or x=="x" or y=="y" or z=="z":
                 print("letters cannot correspond to their numeric value so it can be encrypted but with failures")
-                pl=input("continue? Y/n ")
+                pl=int(input("continue 1:"))
         else:
-                print("give da digits")
-                text=str(input())
+                text=str(input("Message:"))
+                
                 dz=text.replace(z,"z")
                 dy=dz.replace(y,"y")
                 dx=dy.replace(x,"x")
@@ -61,6 +61,8 @@ while pl=="Y":
                 dc=dd.replace(c,"c")
                 db=dc.replace(b,"b")
                 da=db.replace(a,"a")
+                
                 print("^")
                 print(da)
-                pl=input("continue? Y/n")
+                pl=int(input("continue 1:"))
+                break
